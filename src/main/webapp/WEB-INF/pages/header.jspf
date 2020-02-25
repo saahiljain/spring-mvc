@@ -1,0 +1,22 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="ISO-8859-1">
+	<title>Spring MVC Application</title>
+	<link rel="stylesheet "type="text/css" href="./assets/css/bootstrap.min.css">
+</head>
+<body>
+	<div class="alert alert-primary">
+		<div class="container">
+			<h2>Welcome to Product Management App</h2>
+		</div>
+	</div>
+	<div class="container" style="min-height:450px">
+		<p>
+			<a href="./home" class="btn btn-link">Home</a>
+			<a href="./all-products" class="btn btn-link">List All Products</a>
+			<a href="./add-product" class="btn btn-link">Add Product</a>
+			<a href="./product-details" class="btn btn-link">Product Detail</a>
+		</p>
